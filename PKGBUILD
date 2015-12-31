@@ -8,7 +8,7 @@ license=('custom')
 depends=('sh' 'jack' 'libxpm' 'libxxf86vm' 'libxxf86dga' 'libxcursor')
 makedepends=('cmake' 'libpng' 'mesa' 'glu')
 options=('staticlibs')
-source=(http://downloads.sourceforge.net/alleg/allegro-${pkgver}.tar.gz
+source=(http://cdn.allegro.cc/file/library/allegro/${pkgver}/allegro-${pkgver}.tar.gz
         LICENSE)
 md5sums=('4db71b0460fc99926ae91d223199c2e6'
          '7eea8dc56d1cf80f3bb6cb2992c2b9ef')
